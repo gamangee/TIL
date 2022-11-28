@@ -14,7 +14,8 @@ function solution(price) {
   return answer;
 }
 // 다른 사람 풀이
-// Math.trunc()
+// Math.trunc() : 소수점 이하는 버린다.
+// Math.floor() : (수학적계산) 내림 => 바닥까지 내린다고 생각 (양수)3.5 -> 3 / (음수)-3.5 -> -4
 
 function solution(price) {
   let arr_discount = [
@@ -30,8 +31,13 @@ function solution(price) {
   return price;
 }
 
-// double tilde(~~) 연산자
-//  Math.floor() 처럼 활용
+// double tilde(~~) 연산자 (=이중 NOT 의 비트 연산자)
+// 양수 : Math.floor() 같은 결과
+// 음수 : Math.ceil() 같은 결과
+// undefined 또는 null을 0으로 변환할 때 사용
+// 속도가 가장 빠르다 ( ~~ > Math.floor > parseInt )
+// 가속성이 좋지 않은 단점
+
 function solution(price) {
   price =
     price >= 500000
