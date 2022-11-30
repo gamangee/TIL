@@ -10,7 +10,7 @@ CS 공부 및 기술 면접 준비
 - 매일 CS 지식 관련 글 읽고 정리
 - 매주 3회 코오롱(취업스터디) 팀원들과 공부한 내용 공유
 
-`링크` : [스터디 기록일지 바로가기](https://flax-zircon-5cf.notion.site/2f4b53dd0e8447d2afab8d0558b880f6)
+`링크` : [📑스터디 기록일지](https://flax-zircon-5cf.notion.site/2f4b53dd0e8447d2afab8d0558b880f6)
 <br><br>
 ## ⌨️ Coding Test
 `목표`
@@ -20,6 +20,6 @@ CS 공부 및 기술 면접 준비
 - 매일 프로그래머스 코딩테스트 문제 풀고 기록
 - 입문과정(DAY25) 부터 시작
 
-`사이트` : [Programmers Coding Test](https://school.programmers.co.kr/learn/challenges/beginner?order=acceptance_desc)
+`참고사이트` : [Programmers Coding Test](https://school.programmers.co.kr/learn/challenges/beginner?order=acceptance_desc)
 
 
