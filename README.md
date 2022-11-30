@@ -20,3 +20,5 @@ CS 공부 및 기술 면접 준비
 - 입문과정(DAY25) 부터 시작
 
 `사이트` : [Programmers Coding Test](https://school.programmers.co.kr/learn/challenges/beginner?order=acceptance_desc)
+
+[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=gamangee&theme=nord)](https://github.com/gamangee/github-readme-activity-graph)
