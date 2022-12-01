@@ -64,3 +64,12 @@ function soltuion(n) {
     .map((v, idx) => v + idx)
     .filter((v) => n % v === 0).length;
 }
+
+// 아스키코드
+// 컴퓨터는 모든 데이터를 2진수로 변환하여 인식하고 저장하는데 이러한 규칙을 아스키 코드라고 한다.
+
+// charCodeAt
+// 문자 -> 아스키코드
+
+// fromCharCode
+// 아스키코드 -> 문자
