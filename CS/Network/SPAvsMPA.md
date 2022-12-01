@@ -20,7 +20,7 @@
 2. `pre-rendering` :
    서버에서 요청하는 자가 사람인지 크롤러인지 판단하여, 사람에게는 HTML과 JS 등을 제공하고 **크롤러에게는 사전에 렌더링된 HTML 버전의 페이지를 보여주는 방식**
 
-3. `라이브러리` : react-helmet, prerender-spa-plugin, prerender.io, puppeteer, rendertron
+3. `SEO 우회 라이브러리` : react-helmet, prerender-spa-plugin, prerender.io, puppeteer, rendertron
 
 4. `History API` URL과 같은 주소를 부여하는 API
 
