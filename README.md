@@ -10,7 +10,7 @@ CS 공부 및 기술 면접 준비
 - 매일 CS 지식 관련 글 읽고 정리
 - 매주 3회 코오롱(취업스터디) 팀원들과 공부한 내용 공유
 
-`링크` : [📑스터디 기록일지](https://www.notion.so/2a8311bb3ff54075918ac7b0db2abe91)
+`링크` : [📑스터디 기록일지](https://flax-zircon-5cf.notion.site/2a8311bb3ff54075918ac7b0db2abe91)
 <br><br>
 ## ⌨️ Coding Test
 `목표`
