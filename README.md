@@ -1,5 +1,5 @@
 # 🗓 Moonjung's TIL
-[![Ashutosh's github activity graph](https://activity-graph.herokuapp.com/graph?username=gamangee&theme=nord)](https://github.com/gamangee/github-readme-activity-graph)
+
 프론트엔드 개발자로 성장하기 위해 매일 공부한 내용을 기록하는 Repository입니다.
 
 ## 📚 CS 
