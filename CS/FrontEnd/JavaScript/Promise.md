@@ -52,3 +52,27 @@ callback을 사용하면 비동기 로직의 결과값을 처리하기 위해서
 ### Promise vs Async-await
 
 Promise는 아무래도 클래스이다 보니 함수형 컴포넌트가 대세가 된 지금은 함수에 바로 적용 가능한 async-await가 문법적으로 더 잘 맞고 async-awiat가 비동기 코드를 동기 형태로 만들어 가독성을 더 높이는 것에 큰 차이가 있다
+
+## error handling
+```jsx
+axios
+  .get('/api/user/123')
+  .then(
+    (value) => {
+      // 성공
+      console.log('user info', JSON.parse(value))
+    },
+    (error) => {
+      // http 에러 (40x, 50x...)
+      console.log('http error', error.response.status)
+    },
+  )
+  .catch((error) => {
+    // 예측하지 못한 에러
+    console.log('Unexpected Error!', error)
+  })
+```
+
+1. `then`문에서 `resolve`로 정상적으로 응답이 왔을 때 (2xx, 3xx) 처리
+2. `reject`로 http request에러 (4xx, 5xx)처리
+3. `catch`문에서는 예측하지 못한 에러를 핸들링하고 있는데, 이 경우는 `JSON.parse`에 실패하는 경우 등의 시나리오에서 호출 될 것이다.
